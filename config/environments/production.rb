@@ -7,6 +7,9 @@ Rails.application.configure do
   config.assets.compile = true
   config.assets.digest = true
 
+  # rake assets:precompile
+  # for compile assets files 
+
   # Eager load code on boot. This eager loads most of Rails and
   # your application in memory, allowing both threaded web servers
   # and those relying on copy on write to perform better.
